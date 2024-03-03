@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
     height:150vh;
-    background: url('heroImage.jpeg');
+    background: url('heroImage.jpg');
     background-size:cover;
     position:relative;
 }
@@ -25,7 +25,7 @@
 }
 
 body{
-    background-color:	#dadedd
+    background-color: #EEEDD9
 }
 a { color: black; }
 
