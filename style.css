@@ -11,7 +11,7 @@
 }
 .hero_desc {
     font-size: 1.5rem;
-    color : #404c27;
+    color :  #404c27;
 }
 .hero-text {
     text-align: center;
@@ -50,10 +50,10 @@ a { color: black; }
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #ad937a;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #ad937a;
 }
 .navbarScroll.navbarDark {
     background-color: black;
@@ -65,7 +65,7 @@ a { color: black; }
 }
 
 .fa-github:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover{
-    color: #008000;
+    color: #ad937a;
 }
 .fab {
     color: #000000;
