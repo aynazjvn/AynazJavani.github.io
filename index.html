@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Personal Website</title>
 
   <!--
     - favicon
@@ -42,13 +42,13 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my_pic.jpg" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my_pic.jpeg" alt="Aynaz" width="80">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Aynaz Javani">Aynaz Javani</h1>
 
-          <p class="title">CE student interested in AI,Deep learning, <br>and ML</p>
+          <p class="title">CS graduate student interested in AI, ML and NLP</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -88,8 +88,8 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+989024060052" class="contact-link">+(98) 902-406-0052</a>
-            </div>
+              <!-- <a href="tel:+989024060052" class="contact-link">+(98) 902-406-0052</a>
+            </div> -->
 
           </li>
 
@@ -102,7 +102,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time >July 22, 2000</time>
+              <time datetime="1982-06-23">July 22, 2000</time>
             </div>
 
           </li>
@@ -116,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Tehran, Iran</address>
+              <address>Montreal, Quebec,Canada</address>
             </div>
 
           </li>
@@ -183,16 +183,16 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Certificates</button>
           </li>
 
 <!--          <li class="navbar-item">-->
 <!--            <button class="navbar-link" data-nav-link>Blog</button>-->
 <!--          </li>-->
 
-<!--          <li class="navbar-item">-->
-<!--            <button class="navbar-link" data-nav-link>Contact</button>-->
-<!--          </li>-->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
 
         </ul>
 
@@ -214,15 +214,13 @@
 
         <section class="about-text">
           <p>
-            Hi! I am Aynaz Javani, a B.Sc. Computer Engineering student.<br/> I have been studying computer engineering with a 3.75/4 GPA in the last two years.
+            Hi! I am Aynaz Javani. <br/> I am currently doing my master's at <a href="https://www.concordia.ca/"> Concordia University </a>in the field of Computer Science and I have taken graduate courses in Machine Learning and Advanced programming practices.
 
-            <br/>During my education, I became familiar with artificial intelligence, machine learning and programming.
-
-            <br/>These experiences motivated me to learn more about Machine Learning, Artificial Intelligence, Deep Learning and Neural Networks.
+            <br/>My interest lies in the field of Machine Learning, Artificial Intelligence, and Natural Language Processing.
           </p>
 
           <p>
-            Currently, I am eager to be involved in research and projects related to these fields. <br/>I am also taking courses to learn more =))
+             I am always eager to learn more, get connected to people with same interests and be involved in research and projects.
           </p>
         </section>
 
@@ -245,10 +243,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Databases, Control Version</h4>
+                <h4 class="h4 service-item-title">Databases</h4>
 
                 <p class="service-item-text">
-                  SQL<br> Git
+                  SQL
                 </p>
               </div>
 
@@ -1067,6 +1065,51 @@
 <!--        </section>-->
 
 <!--      </article>-->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d414697.39145711553!2d50.72376463937407!3d35.70596392151739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00491ff3dcd9%3A0xf0b3697c567024bc!2sTehran%2C%20Tehran%20Province%2C%20Iran!5e0!3m2!1sen!2sbd!4v1713030702696!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
     </div>
 
   </main>
