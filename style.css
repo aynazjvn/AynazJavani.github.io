@@ -6,11 +6,9 @@
     position:relative;
 }
 
-.about-text{
-    display:inline;
-
-    
-}
+.long-link {
+    word-break: break-all;
+  }
 
 /* text css above hero image*/
 .hero_title {
